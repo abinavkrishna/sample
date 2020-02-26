@@ -37,6 +37,6 @@ Possible improvements:
 1. An extra parity-bit (even or odd) can be can be appended to the message to monitor its integrity.
 2. Another solution is to perform Cyclic Redundancy Check. Although it increases our message size, it can be very useful
    in detecting possible corruption of data.
-3.
+3. Changing packet array to packet structure with data elements will make it easy to operate with and document it.
  
 
